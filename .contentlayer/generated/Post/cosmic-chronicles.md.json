@@ -1,0 +1,20 @@
+{
+  "title": "Cosmic Chronicles: Gazing at the Stars from a Colossal Perspective",
+  "date": "2023-02-16T00:00:00.000Z",
+  "img_url": "/Godzilla7.jpeg",
+  "category": "academic",
+  "body": {
+    "raw": "\n\"Salutations, starry-eyed dreamers and celestial wanderers! While my size might prevent me from fitting in a spaceship, that won't stop me from exploring the cosmos. Join me as I share the cosmic wonders that capture my gargantuan imagination and reveal the universe's most jaw-dropping secrets.\"\n",
+    "html": "<p>\"Salutations, starry-eyed dreamers and celestial wanderers! While my size might prevent me from fitting in a spaceship, that won't stop me from exploring the cosmos. Join me as I share the cosmic wonders that capture my gargantuan imagination and reveal the universe's most jaw-dropping secrets.\"</p>"
+  },
+  "_id": "cosmic-chronicles.md",
+  "_raw": {
+    "sourceFilePath": "cosmic-chronicles.md",
+    "sourceFileName": "cosmic-chronicles.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "cosmic-chronicles"
+  },
+  "type": "Post",
+  "slug": "cosmic-chronicles"
+}

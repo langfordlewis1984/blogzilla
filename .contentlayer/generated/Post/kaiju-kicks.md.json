@@ -1,0 +1,20 @@
+{
+  "title": "Kaiju Kicks: A Sneakerhead's Guide to Stylish Stompings",
+  "date": "2023-03-16T00:00:00.000Z",
+  "img_url": "/Godzilla8.jpeg",
+  "category": "fun",
+  "body": {
+    "raw": "\n\"Greetings, fashion-forward foot crushers and sneaker aficionados! Who says you can't have style while stomping cities flat? Join me as I delve into the world of kaiju footwear, from finding the perfect fit for a colossal foot to accessorizing a tail with the latest trends.\"\n",
+    "html": "<p>\"Greetings, fashion-forward foot crushers and sneaker aficionados! Who says you can't have style while stomping cities flat? Join me as I delve into the world of kaiju footwear, from finding the perfect fit for a colossal foot to accessorizing a tail with the latest trends.\"</p>"
+  },
+  "_id": "kaiju-kicks.md",
+  "_raw": {
+    "sourceFilePath": "kaiju-kicks.md",
+    "sourceFileName": "kaiju-kicks.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "kaiju-kicks"
+  },
+  "type": "Post",
+  "slug": "kaiju-kicks"
+}

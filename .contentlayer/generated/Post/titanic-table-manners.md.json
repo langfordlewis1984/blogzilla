@@ -1,0 +1,20 @@
+{
+  "title": "Titanic Table Manners: Dining Etiquette for a Mighty Monster",
+  "date": "2022-10-16T00:00:00.000Z",
+  "img_url": "/Godzilla3.jpeg",
+  "category": "food",
+  "body": {
+    "raw": "\n\"Salutations, culinary comrades and gastronomic giants! Today, I'm here to shatter the myth that monsters lack proper table manners. Whether you're savoring a skyscraper or nibbling on a tree, I'll guide you through the finer points of dining with a dash of dino flair.\"\n",
+    "html": "<p>\"Salutations, culinary comrades and gastronomic giants! Today, I'm here to shatter the myth that monsters lack proper table manners. Whether you're savoring a skyscraper or nibbling on a tree, I'll guide you through the finer points of dining with a dash of dino flair.\"</p>"
+  },
+  "_id": "titanic-table-manners.md",
+  "_raw": {
+    "sourceFilePath": "titanic-table-manners.md",
+    "sourceFileName": "titanic-table-manners.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "titanic-table-manners"
+  },
+  "type": "Post",
+  "slug": "titanic-table-manners"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Mythical Musings: Legendary Creatures Through the Eyes of a Kaiju",
+  "date": "2023-01-16T00:00:00.000Z",
+  "img_url": "/Godzilla6.jpeg",
+  "category": "work",
+  "body": {
+    "raw": "\n\"Greetings, myth seekers and legendary enthusiasts! As a creature of legends myself, I'm taking a closer look at some of Earth's most fascinating mythological beings. From the mighty griffins to the elusive unicorns, join me on a mythic journey that will leave even giants like me in awe.\"\n",
+    "html": "<p>\"Greetings, myth seekers and legendary enthusiasts! As a creature of legends myself, I'm taking a closer look at some of Earth's most fascinating mythological beings. From the mighty griffins to the elusive unicorns, join me on a mythic journey that will leave even giants like me in awe.\"</p>"
+  },
+  "_id": "mythical-musings.md",
+  "_raw": {
+    "sourceFilePath": "mythical-musings.md",
+    "sourceFileName": "mythical-musings.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "mythical-musings"
+  },
+  "type": "Post",
+  "slug": "mythical-musings"
+}

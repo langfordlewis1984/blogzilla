@@ -1,0 +1,20 @@
+{
+  "title": "Stompology: The Science of Ground-Shaking Steps",
+  "date": "2022-12-16T00:00:00.000Z",
+  "img_url": "/Godzilla5.webp",
+  "category": "work",
+  "body": {
+    "raw": "\n\"Salutations, earth-shakers and seismic scholars! Ever wondered how I manage to create earthquakes with every step? In this blog post, I'll peel back the layers of my stomping techniques and reveal the seismic secrets that make my presence felt.\"\n",
+    "html": "<p>\"Salutations, earth-shakers and seismic scholars! Ever wondered how I manage to create earthquakes with every step? In this blog post, I'll peel back the layers of my stomping techniques and reveal the seismic secrets that make my presence felt.\"</p>"
+  },
+  "_id": "stompology.md",
+  "_raw": {
+    "sourceFilePath": "stompology.md",
+    "sourceFileName": "stompology.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "stompology"
+  },
+  "type": "Post",
+  "slug": "stompology"
+}
