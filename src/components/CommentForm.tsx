@@ -17,8 +17,6 @@ export default function CommentForm({
   async function handleFormSubmit(event: React.FormEvent<HTMLFormElement>) {
     event?.preventDefault();
     // @ts-ignore
-    const username = event.target.username.value || "anonymous";
-    // @ts-ignore
     const comment = event.target.comment.value;
 
     const formData = new FormData();
@@ -30,8 +28,6 @@ export default function CommentForm({
     console.log(res);
 
     // @ts-ignore
-    event.target.username.value = "";
-    // @ts-ignore
     event.target.comment.value = "";
 
     startTransition(() => {
@@ -41,10 +37,9 @@ export default function CommentForm({
   }
   return (
     <form onSubmit={handleFormSubmit}>
-      <label htmlFor="username">Name</label>
-      <br />
-      <input name="username" className="text-black" />
-      <br />
+      <p>
+        Commenting as <strong>{username}</strong>
+      </p>
       <br />
       <label htmlFor="comment">Comment</label>
       <br />

@@ -27,7 +27,7 @@ export default async function Comments({ slug }: { slug: string }) {
       ) : (
         <Link href="/sign-in">Please sign in to Comment</Link>
       )}
-      ;<h3 className="text-lg font-semibold mb-2 mt-6">Comments</h3>
+      <h3 className="text-lg font-semibold mb-2 mt-6">Comments</h3>
       <ul className="space-y-4">
         {/* @ts-ignore */}
         {comments.map((comment) => {

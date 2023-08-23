@@ -1,4 +1,4 @@
-import Blogzilla from "../../public/godz12.jpeg";
+import Blogzilla from "../../public/godzilla_godzilla.gif";
 import { Handjet } from "next/font/google";
 
 const handjet = Handjet({ subsets: ["latin"] });
@@ -12,9 +12,9 @@ export default function Home() {
           style={{
             backgroundImage: `url(${Blogzilla.src})`,
             backgroundSize: "cover",
-            backgroundPosition: "top", // Anchoring at top-left
-            maxWidth: "100vw", // Full width of the viewport
-            height: "100vh", // Full height of the viewport
+            backgroundPosition: "top",
+            maxWidth: "100vw",
+            height: "100vh",
           }}
         ></div>
         <div className="relative z-10 text-center">
