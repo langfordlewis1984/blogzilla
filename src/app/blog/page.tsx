@@ -26,12 +26,14 @@ export default function BlogPage() {
             >
               <p className="text-gray-600 text-center">Date: {post.date}</p>
               <div className="flex-grow">
-                <h3 className="text-lg font-semibold mb-2 text-center">
+                <h3 className="text-xl drop-shadow font-semibold mb-2 text-center">
                   <Link href={`/blog/${post.slug}`}>{post.title}</Link>
                 </h3>
                 <div className="flex justify-center items-center relative">
-                  <div className="absolute bottom-0 left-0 z-10 p-2 bg-green-500 text-white rounded-tr-lg rounded-bl-lg text-xs">
-                    {post.category}
+                  <div className="absolute bottom-0 left-0 z-10 p-2 bg-green-500 text-white rounded-tr-lg rounded-bl-lg text-xs m-2 drop-shadow">
+                    <Link href={`/blog/categories/${post.category}`}>
+                      {post.category}
+                    </Link>
                   </div>
                   <Image
                     src={post.img_url}
@@ -41,7 +43,6 @@ export default function BlogPage() {
                     height={1}
                   />
                 </div>
-                <div className="text-xs">{`category: ${post.category}`}</div>
               </div>
             </div>
           );
