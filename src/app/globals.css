@@ -25,3 +25,37 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.shimmer-title {
+  width: 220px;
+  height: 30px;
+  background-color: grey;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+  animation: shimmer 3s infinite linear;
+}
+.shimmer-content {
+  width: 200px;
+  height: 30px;
+  background-color: grey;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+  animation: shimmer 3s infinite linear;
+}
+.shimmer-user {
+  width: 180px;
+  height: 30px;
+  background-color: grey;
+  border-radius: 15px;
+  animation: shimmer 3s infinite linear;
+}
+
+@keyframes shimmer {
+  0%,
+  100% {
+    background-color: grey;
+  }
+  50% {
+    background-color: black;
+  }
+}

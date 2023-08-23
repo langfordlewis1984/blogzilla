@@ -3,6 +3,8 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { kv } from "@vercel/kv";
 import Comments from "@/components/Comments";
+import CommentsLoading from "@/components/CommentsLoading";
+import { Suspense } from "react";
 
 type BlogPostParams = {
   params: {
@@ -60,8 +62,10 @@ export default async function IndividualPostPage({ params }: BlogPostParams) {
           <span className="text-bold text-black">{pageViews}</span> humungous
           pairs of abominable eyeholes
         </p>
-        {/* @ts-ignore */}
-        <Comments slug={params.slug} />
+        <Suspense fallback={<CommentsLoading />}>
+          {/* @ts-ignore */}
+          <Comments slug={params.slug} />
+        </Suspense>
       </article>
     </div>
   );
