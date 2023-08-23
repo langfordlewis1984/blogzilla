@@ -3,7 +3,13 @@ import { WEBSITE_URL } from "config";
 import { useRouter } from "next/navigation";
 import { useTransition } from "react";
 
-export default function CommentForm({ slug }: { slug: string }) {
+export default function CommentForm({
+  slug,
+  username,
+}: {
+  slug: string;
+  username: string;
+}) {
   const router = useRouter();
 
   const [isPending, startTransition] = useTransition();
