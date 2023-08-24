@@ -7,9 +7,9 @@ export default function ContactPage() {
         </h2>
         <p className="ml-10 max-w-sm">
           So, you think you have what it takes to get in touch with the King of
-          the Monsters? Well, let's see if you can handle my mighty virtual
+          the Monsters? Well, lets see if you can handle my mighty virtual
           presence. If you dare to send me a message, do so with a tremble of
-          respect—or else!
+          respect or else!
         </p>
       </div>
       <div className="flex flex-col items-end">
@@ -30,9 +30,9 @@ export default function ContactPage() {
         </h2>
         <p className="ml-10 max-w-sm">
           Inscribe your message below, and tread lightly, for this digital realm
-          cannot fully contain my ferocity. Keep it brief, and don't even think
-          about spamming me with mere mortal nonsense. I've got towering
-          monsters to wrestle, you know!
+          cannot fully contain my ferocity. Keep it brief, and dont even think
+          about spamming me with mere mortal nonsense. Ive got towering monsters
+          to wrestle, you know!
         </p>
       </div>
       <div className="flex flex-col items-end">
@@ -40,7 +40,7 @@ export default function ContactPage() {
           Your Email: The Offering
         </h2>
         <p className="mr-10 text-right max-w-sm content-end">
-          Include your email, and perhaps I'll consider your plea worthy of my
+          Include your email, and perhaps Ill consider your plea worthy of my
           time. I might just spare you from a little tail swipe if your words
           are compelling enough.
         </p>
@@ -61,13 +61,13 @@ export default function ContactPage() {
         </h2>
         <p className="mr-10 text-right max-w-sm content-end">
           And there you have it, weakling! Hit that button and unleash your
-          words upon the digital void. If I'm in a generous mood, I might grant
+          words upon the digital void. If Im in a generous mood, I might grant
           you a response. But remember, my time is precious, and I have cities
           to stomp.
         </p>
         <p className="mr-10 text-right max-w-sm content-end">
           So, are you prepared to approach the digital presence of the mighty
-          Godzilla? Proceed with caution, for you're treading on the
+          Godzilla? Proceed with caution, for youre treading on the
           cyber-footprints of a true legend. Roar on, puny human, and let your
           words quake with awe!
         </p>
