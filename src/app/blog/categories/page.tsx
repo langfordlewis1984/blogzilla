@@ -1,6 +1,5 @@
 import { getCategories } from "@/lib/posts";
 import Link from "next/link";
-import { WEBSITE_URL } from "config";
 
 export default function CategoriesPage() {
   const categories = getCategories();
@@ -12,8 +11,8 @@ export default function CategoriesPage() {
           return (
             <li key={category.catslug}>
               <Link
-                href={`https://blog-zilla.vercel.app/blog/categories/${category.catslug}`}
-                className="finger stomp circuit-board border-2 border-red-700 p-6 rounded-lg shadow-md transition-transform duration-300 transform hover:-translate-y-1 flex flex-col justify-between overflow-hidden"
+                href={`/blog/categories/${category.catslug}`}
+                className="finger circuit-board border-2 border-red-700 p-6 rounded-lg shadow-md transition-transform duration-300 transform hover:-translate-y-1 flex flex-col justify-between overflow-hidden"
               >
                 {category.name}
               </Link>
