@@ -50,9 +50,9 @@ export default function ContactPage() {
           Human Verification: Show Respect
         </h2>
         <p className="ml-10 max-w-sm">
-          Before you press that ominous "Submit" button, prove your worth by
-          completing a simple human verification. After all, I am not one to
-          converse with bots and imbeciles!
+          Before you press that ominous &quot;Submit&quot; button, prove your
+          worth by completing a simple human verification. After all, I am not
+          one to converse with bots and imbeciles!
         </p>
       </div>
       <div className="flex flex-col items-end">
