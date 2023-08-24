@@ -23,6 +23,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className={handjet.className}>
+          {/* @ts-ignore */}
           <Header />
           {children}
           <Footer />

@@ -1,7 +1,7 @@
-import { WEBSITE_URL } from "config";
 import CommentForm from "./CommentForm";
 import { currentUser } from "@clerk/nextjs";
 import type { User } from "@clerk/nextjs/server";
+import { WEBSITE_URL } from "config";
 import Link from "next/link";
 
 export default async function Comments({ slug }: { slug: string }) {
@@ -25,12 +25,14 @@ export default async function Comments({ slug }: { slug: string }) {
           <CommentForm slug={slug} username={user.username} />
         </>
       ) : (
-        <Link href="/sign-in">Please sign in to Comment</Link>
+        <Link className="finger" href={`/sign-in?redirect=/blog/${slug}`}>
+          Please sign in to Comment
+        </Link>
       )}
       <h3 className="text-lg font-semibold mb-2 mt-6">Comments</h3>
       <ul className="space-y-4">
         {/* @ts-ignore */}
-        {comments.map((comment) => {
+        {comments?.map((comment) => {
           return (
             <li
               key={comment.uuid}

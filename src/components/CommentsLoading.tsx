@@ -1,9 +1,23 @@
 export default function CommentsLoading() {
   return (
     <div>
-      <h2 className="shimmer-title">asdokfjhg</h2>
-      <p className="shimmer-content"></p>
-      <p className="shimmer-user"></p>
+      <div className="shimmer-green-box">
+        <h3 className="text-lg font-semibold items-start">
+          Comments Loading...
+        </h3>
+        <div className="shimmer-white-box">
+          <div className="shimmer-green-text blur-sm">anonymous says...</div>
+          <div className="shimmer-black-text blur-sm">blah blah blah</div>
+        </div>
+        <div className="shimmer-white-box">
+          <div className="shimmer-green-text blur-sm">anonymous says...</div>
+          <div className="shimmer-black-text blur-sm">blah blah blah</div>
+        </div>
+        <div className="shimmer-white-box">
+          <div className="shimmer-green-text blur-sm">anonymous says...</div>
+          <div className="shimmer-black-text blur-sm">blah blah blah</div>
+        </div>
+      </div>
     </div>
   );
 }

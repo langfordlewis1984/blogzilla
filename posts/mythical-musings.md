@@ -1,7 +1,6 @@
 ---
 title: "Mythical Musings: Legendary Creatures Through the Eyes of a Kaiju"
 date: 2023-01-16
-slug: "mythical-musings"
 img_url: "/Godzilla6.jpeg"
 category: "work"
 ---

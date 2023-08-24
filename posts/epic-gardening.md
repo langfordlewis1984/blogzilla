@@ -1,7 +1,6 @@
 ---
 title: "Epic Gardening: Cultivating Monstrous Greenery with a Godzilla Twist"
 date: 2023-04-16
-slug: "epic-gardening"
 img_url: "/Godzilla9.jpeg"
 category: "fun"
 ---

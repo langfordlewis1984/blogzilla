@@ -1,7 +1,6 @@
 ---
 title: "Rampaging Riddles: Unveiling the Mysteries of the Universe with a Titan Twist"
 date: 2022-09-16
-slug: "rampaging-riddles"
 img_url: "/Godzilla2.webp"
 category: "fun"
 ---

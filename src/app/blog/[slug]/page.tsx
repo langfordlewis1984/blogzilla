@@ -5,6 +5,11 @@ import { kv } from "@vercel/kv";
 import Comments from "@/components/Comments";
 import CommentsLoading from "@/components/CommentsLoading";
 import { Suspense } from "react";
+import Date from "../../../components/Date";
+
+import { Inter } from "next/font/google";
+import Link from "next/link";
+const inter = Inter({ subsets: ["latin"] });
 
 type BlogPostParams = {
   params: {
@@ -46,17 +51,26 @@ export default async function IndividualPostPage({ params }: BlogPostParams) {
         </h2>
         <div
           dangerouslySetInnerHTML={{ __html: post.body.html }}
-          className="mb-8 max-w-lg"
+          className={inter.className + " mb-8 max-w-lg "}
         ></div>
-        <Image
-          src={post.img_url}
-          alt={post.img_url}
-          layout="responsive"
-          width={100}
-          height={100}
-        />
-        <p className="text-gray-600 mt-4">Date: {post.date}</p>
-        <p>{`category: ${post.category}`}</p>
+        <div className="relative">
+          <Image
+            className="animate-none"
+            src={post.img_url}
+            alt={post.img_url}
+            layout="responsive"
+            width={100}
+            height={100}
+          />
+          <div className="stomp finger absolute bottom-0 left-0 z-10 p-2 bg-green-500 text-white rounded-tr-lg rounded-bl-lg text-xl ml-2 mb-2 drop-shadow">
+            <Link className="finger" href={`/blog/categories/${post.category}`}>
+              {post.category}
+            </Link>
+          </div>
+        </div>
+        <p className={inter.className + " text-gray-600 mt-4"}>
+          <Date dateString={post.date} />
+        </p>
         <p>
           This Post has been viewed by{" "}
           <span className="text-bold text-black">{pageViews}</span> humungous

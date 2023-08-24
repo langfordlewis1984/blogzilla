@@ -1,7 +1,6 @@
 ---
 title: "Unleashing My Inner Scribe: The Roaring Tale of My Inaugural Blog Post"
 date: 2022-08-16
-slug: "inaugural-blog-post"
 img_url: "/Godzilla1.webp"
 category: "work"
 ---

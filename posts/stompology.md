@@ -1,7 +1,6 @@
 ---
 title: "Stompology: The Science of Ground-Shaking Steps"
 date: 2022-12-16
-slug: "inaugural-blog-post"
 img_url: "/Godzilla5.webp"
 category: "work"
 ---

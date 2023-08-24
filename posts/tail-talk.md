@@ -1,7 +1,6 @@
 ---
 title: "Tail Talk: A Deep Dive into the Language of Lizards"
 date: 2022-11-16
-slug: "tail-talk"
 img_url: "/Godzilla4.webp"
 category: "academic"
 ---

@@ -1,5 +1,4 @@
 "use client";
-import { WEBSITE_URL } from "config";
 import { useRouter } from "next/navigation";
 import { useTransition } from "react";
 
@@ -24,7 +23,7 @@ export default function CommentForm({
     formData.append("comment", comment);
 
     const options = { body: formData, method: "POST" };
-    const res = await fetch(`${WEBSITE_URL}/api/comments/${slug}`, options);
+    const res = await fetch(`/api/comments/${slug}`, options);
     console.log(res);
 
     // @ts-ignore
@@ -50,7 +49,6 @@ export default function CommentForm({
         className="text-black"
         required
       ></textarea>
-      <br />
       <br />
       <button
         type="submit"

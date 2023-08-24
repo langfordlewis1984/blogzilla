@@ -1,7 +1,6 @@
 ---
 title: "Sonic Serenades: The Surprising Musical Talents of a Kaiju"
 date: 2023-05-16
-slug: "sonic-serenades"
 img_url: "/Godzilla10.webp"
 category: "fun"
 ---

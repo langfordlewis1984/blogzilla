@@ -1,7 +1,6 @@
 ---
 title: "Cryptid Chronicles: Encounters with Mysterious Creatures Around the Globe"
 date: 2023-06-16
-slug: "cryptid-chronicles"
 img_url: "/Godzilla11.webp"
 category: "work"
 ---

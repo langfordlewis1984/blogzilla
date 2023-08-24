@@ -1,7 +1,6 @@
 ---
 title: "Cosmic Chronicles: Gazing at the Stars from a Colossal Perspective"
 date: 2023-02-16
-slug: "cosmic-chronicles"
 img_url: "/Godzilla7.jpeg"
 category: "academic"
 ---

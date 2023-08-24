@@ -1,7 +1,6 @@
 ---
 title: "Titanic Table Manners: Dining Etiquette for a Mighty Monster"
 date: 2022-10-16
-slug: "rampaging-riddles"
 img_url: "/Godzilla3.jpeg"
 category: "food"
 ---

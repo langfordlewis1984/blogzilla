@@ -12,7 +12,7 @@ export default function CategoriesPage() {
             <li key={category.catslug}>
               <Link
                 href={`/blog/categories/${category.catslug}`}
-                className="circuit-board border-2 border-red-700 p-6 rounded-lg shadow-md transition-transform duration-300 transform hover:-translate-y-1 flex flex-col justify-between overflow-hidden"
+                className="finger stomp circuit-board border-2 border-red-700 p-6 rounded-lg shadow-md transition-transform duration-300 transform hover:-translate-y-1 flex flex-col justify-between overflow-hidden"
               >
                 {category.name}
               </Link>

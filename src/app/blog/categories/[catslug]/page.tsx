@@ -42,24 +42,32 @@ export default function CatSlugPage({ params }: CategoryParams) {
             >
               <p className="text-gray-600 text-center">Date: {post.date}</p>
               <div className="flex-grow">
-                <h3 className="text-xl drop-shadow font-semibold mb-2 text-center">
-                  <Link href={`/blog/${post.slug}`}>{post.title}</Link>
+                <h3 className="stomp text-xl drop-shadow font-semibold mb-2 text-center">
+                  <Link className="finger" href={`/blog/${post.slug}`}>
+                    {post.title}
+                  </Link>
                 </h3>
                 <div className="flex justify-center items-center relative">
-                  <div className="absolute bottom-0 left-0 z-10 p-2 bg-green-500 text-white rounded-tr-lg rounded-bl-lg text-xs ml-4 mb-2 drop-shadow">
-                    <Link href={`/blog/categories/${post.category}`}>
-                      {post.category}
-                    </Link>
-                  </div>
                   <div className="image-container aspect-w-1 aspect-h-1 w-64 h-64 relative">
+                    <div className="finger stomp absolute bottom-0 left-0 z-10 p-2 bg-green-500 text-white rounded-tr-lg rounded-bl-lg text-xs ml-4 mb-2 drop-shadow">
+                      <Link
+                        className="finger"
+                        href={`/blog/categories/${post.category}`}
+                      >
+                        {post.category}
+                      </Link>
+                    </div>
+
                     <div className="aspect-content">
-                      <Image
-                        src={post.img_url}
-                        alt={post.img_url}
-                        layout="fill"
-                        objectFit="cover"
-                        objectPosition="center"
-                      />
+                      <Link className="finger" href={`/blog/${post.slug}`}>
+                        <Image
+                          src={post.img_url}
+                          alt={post.img_url}
+                          layout="fill"
+                          objectFit="cover"
+                          objectPosition="center"
+                        />
+                      </Link>
                     </div>
                   </div>
                 </div>
